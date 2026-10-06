@@ -1,0 +1,22 @@
+# 发布产物（脱敏版，可直接上传）
+# 一次性生成，无需提交
+.DS_Store
+*.swp
+*~
+.#*
+*.tmp
+*.log
+
+# 本地生成的凭据
+*_pw*
+*.pem
+*.key
+!scripts/*.sh
+secret*
+.env
+.env.*
+
+# 编辑器
+.vscode/
+.idea/
+__pycache__/
