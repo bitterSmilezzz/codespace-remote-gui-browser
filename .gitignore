@@ -20,3 +20,6 @@ secret*
 .vscode/
 .idea/
 __pycache__/
+
+# 本地发版物料（推文草稿、配图、调研清单），不入库
+/docs/
